@@ -6,12 +6,29 @@ use svg::{
 
 pub use svg;
 
-pub fn build_svg_from_widget(
-    widget: impl Widget,
+pub struct Options {
     area: Rect,
     cell_width_px: u16,
     cell_height_px: u16,
-) -> Document {
+}
+
+impl Options {
+    pub fn new(area: Rect, cell_width_px: u16, cell_height_px: u16) -> Self {
+        Self {
+            area,
+            cell_width_px,
+            cell_height_px,
+        }
+    }
+}
+
+pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document {
+    let Options {
+        area,
+        cell_width_px,
+        cell_height_px,
+    } = options;
+
     let mut buf = Buffer::empty(area);
 
     widget.render(area, &mut buf);
@@ -23,7 +40,17 @@ pub fn build_svg_from_widget(
     let mut document = Document::new()
         .set("width", document_width_px)
         .set("height", document_height_px)
-        .set("viewBox", (0, 0, document_width_px, document_height_px));
+        .set("viewBox", (0, 0, document_width_px, document_height_px))
+        .set(
+            "style",
+            [
+                "font-family: Monaspace Krypton;",
+                &format!("font-size: {}px;", cell_height_px),
+                "fill: white",
+            ]
+            .concat(),
+        )
+        .set("dominant-baseline", "central");
 
     let background_rect = Rectangle::new()
         .set("fill", "#333")
@@ -38,9 +65,7 @@ pub fn build_svg_from_widget(
                 document.append(
                     Text::new(cell.symbol())
                         .set("x", col * cell_width_px)
-                        .set("y", (row + 1) * cell_height_px) // +1 for baseline
-                        .set("fill", "white")
-                        .set("style", "font-family: Monaspace Krypton; font-size: 16px;"),
+                        .set("y", row * cell_height_px), // +1 for baseline
                 );
             }
         }

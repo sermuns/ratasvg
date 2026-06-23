@@ -1,15 +1,183 @@
-<svg height="180" viewBox="0 0 200 180" width="200" xmlns="http://www.w3.org/2000/svg">
-<rect fill="#333" height="180" width="200"/>
-<text fill="white" style="font-family: Monaspace Krypton; font-size: 16px;" x="0" y="18">
+<svg dominant-baseline="central" height="180" style="font-family: Monaspace Krypton;font-size: 18px;fill: white" viewBox="0 0 220 180" width="220" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#333" height="180" width="220"/>
+<text x="0" y="0">
+┌
+</text>
+<text x="0" y="18">
+│
+</text>
+<text x="0" y="36">
+│
+</text>
+<text x="0" y="54">
+│
+</text>
+<text x="0" y="72">
+│
+</text>
+<text x="0" y="90">
+│
+</text>
+<text x="0" y="108">
+│
+</text>
+<text x="0" y="126">
+│
+</text>
+<text x="0" y="144">
+│
+</text>
+<text x="0" y="162">
+└
+</text>
+<text x="11" y="0">
+─
+</text>
+<text x="11" y="18">
 h
 </text>
-<text fill="white" style="font-family: Monaspace Krypton; font-size: 16px;" x="10" y="18">
+<text x="11" y="162">
+─
+</text>
+<text x="22" y="0">
+─
+</text>
+<text x="22" y="18">
 e
 </text>
-<text fill="white" style="font-family: Monaspace Krypton; font-size: 16px;" x="20" y="18">
+<text x="22" y="162">
+─
+</text>
+<text x="33" y="0">
+─
+</text>
+<text x="33" y="18">
 h
 </text>
-<text fill="white" style="font-family: Monaspace Krypton; font-size: 16px;" x="30" y="18">
+<text x="33" y="162">
+─
+</text>
+<text x="44" y="0">
+─
+</text>
+<text x="44" y="18">
 e
+</text>
+<text x="44" y="162">
+─
+</text>
+<text x="55" y="0">
+─
+</text>
+<text x="55" y="162">
+─
+</text>
+<text x="66" y="0">
+─
+</text>
+<text x="66" y="162">
+─
+</text>
+<text x="77" y="0">
+─
+</text>
+<text x="77" y="162">
+─
+</text>
+<text x="88" y="0">
+─
+</text>
+<text x="88" y="162">
+─
+</text>
+<text x="99" y="0">
+─
+</text>
+<text x="99" y="162">
+─
+</text>
+<text x="110" y="0">
+─
+</text>
+<text x="110" y="162">
+─
+</text>
+<text x="121" y="0">
+─
+</text>
+<text x="121" y="162">
+─
+</text>
+<text x="132" y="0">
+─
+</text>
+<text x="132" y="162">
+─
+</text>
+<text x="143" y="0">
+─
+</text>
+<text x="143" y="162">
+─
+</text>
+<text x="154" y="0">
+─
+</text>
+<text x="154" y="162">
+─
+</text>
+<text x="165" y="0">
+─
+</text>
+<text x="165" y="162">
+─
+</text>
+<text x="176" y="0">
+─
+</text>
+<text x="176" y="162">
+─
+</text>
+<text x="187" y="0">
+─
+</text>
+<text x="187" y="162">
+─
+</text>
+<text x="198" y="0">
+─
+</text>
+<text x="198" y="162">
+─
+</text>
+<text x="209" y="0">
+┐
+</text>
+<text x="209" y="18">
+│
+</text>
+<text x="209" y="36">
+│
+</text>
+<text x="209" y="54">
+│
+</text>
+<text x="209" y="72">
+│
+</text>
+<text x="209" y="90">
+│
+</text>
+<text x="209" y="108">
+│
+</text>
+<text x="209" y="126">
+│
+</text>
+<text x="209" y="144">
+│
+</text>
+<text x="209" y="162">
+┘
 </text>
 </svg>
