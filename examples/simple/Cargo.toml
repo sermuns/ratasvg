@@ -1,0 +1,9 @@
+[package]
+name = "simple"
+edition.workspace = true
+publish = false
+
+[dependencies]
+color-eyre = "0.6"
+ratatui = "0.30"
+ratasvg.workspace = true
