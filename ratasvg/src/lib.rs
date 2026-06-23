@@ -7,19 +7,10 @@ use svg::{
 pub use svg;
 
 pub struct Options {
-    area: Rect,
-    cell_width_px: u16,
-    cell_height_px: u16,
-}
-
-impl Options {
-    pub fn new(area: Rect, cell_width_px: u16, cell_height_px: u16) -> Self {
-        Self {
-            area,
-            cell_width_px,
-            cell_height_px,
-        }
-    }
+    pub area: Rect,
+    pub cell_width_px: u16,
+    pub cell_height_px: u16,
+    pub font_size_px: u16,
 }
 
 pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document {
@@ -27,6 +18,7 @@ pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document 
         area,
         cell_width_px,
         cell_height_px,
+        font_size_px,
     } = options;
 
     let mut buf = Buffer::empty(area);
@@ -45,7 +37,7 @@ pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document 
             "style",
             [
                 "font-family: Monaspace Krypton;",
-                &format!("font-size: {}px;", cell_height_px),
+                &format!("font-size: {}px;", font_size_px),
                 "fill: white",
             ]
             .concat(),

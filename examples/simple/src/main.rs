@@ -23,7 +23,12 @@ fn main() -> color_eyre::Result<()> {
         ..Default::default()
     };
 
-    let opts = ratasvg::Options::new(area, 11, 18);
+    let opts = ratasvg::Options {
+        area,
+        cell_width_px: 9,
+        cell_height_px: 18,
+        font_size_px: 14,
+    };
     let document = build_svg_from_widget(something, opts);
 
     const OUT_FILE: &str = "out.svg";
