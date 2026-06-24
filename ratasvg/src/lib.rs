@@ -74,7 +74,7 @@ pub fn build_svg_from_widget(
                 symbol => {
                     let text = Text::new(symbol)
                         .set("x", col * cell_width_px)
-                        .set("y", row * cell_height_px)
+                        .set("y", (row + 1) * cell_height_px) // account for baseline??
                         .set("style", ratatui_style_to_css_style_string(cell.style()));
 
                     document.append(text);
