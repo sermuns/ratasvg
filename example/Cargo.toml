@@ -7,3 +7,4 @@ publish = false
 mousefood-extras = "0.1.0"
 ratasvg.path = "../ratasvg"
 ratatui = "0.30"
+tui-big-text = "0.8"
