@@ -52,7 +52,7 @@ pub fn build_svg_from_widget(
         .set(
             "style",
             [
-                "font-family:DejaVu Sans Mono;",
+                "font-family:DejaVu Sans Mono,monospace;",
                 &format!("font-size: {}px;", font_size_px),
                 "fill: white",
             ]
