@@ -1,3 +1,5 @@
+use std::error::Error;
+
 use mousefood_extras::MouseFoodLogo;
 use ratasvg::{build_svg_from_widget, svg};
 use ratatui::widgets::{RatatuiLogo, RatatuiLogoSize, RatatuiMascot};
@@ -6,7 +8,7 @@ use crate::header::Header;
 
 mod header;
 
-fn main() -> color_eyre::Result<()> {
+fn main() -> Result<(), Box<dyn Error>> {
     // https://github.com/ratatui/ratatui/blob/main/examples/vhs/release-header.tape
     svg::save(
         "release-header.svg",

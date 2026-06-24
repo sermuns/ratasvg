@@ -4,7 +4,6 @@ edition.workspace = true
 publish = false
 
 [dependencies]
-color-eyre = "0.6"
 mousefood-extras = "0.1.0"
 ratasvg.path = "../ratasvg"
 ratatui = "0.30"
