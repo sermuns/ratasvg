@@ -1,4 +1,4 @@
-use ratatui_core::{buffer::Buffer, layout::Rect, style::Color, widgets::Widget};
+use ratatui_core::{buffer::Buffer, layout::Rect, widgets::Widget};
 use svg::{
     Document, Node,
     node::element::{Rectangle, Text},
@@ -35,7 +35,6 @@ pub fn build_svg_from_widget(
     let mut buf = Buffer::empty(area);
 
     widget.render(area, &mut buf);
-    dbg!(&buf);
 
     let (document_width_px, document_height_px) =
         (area.width * cell_width_px, area.height * cell_height_px);
@@ -47,7 +46,7 @@ pub fn build_svg_from_widget(
         .set(
             "style",
             [
-                "font-family: Monaspace Krypton;",
+                "font-family:DejaVu Sans Mono;",
                 &format!("font-size: {}px;", font_size_px),
                 "fill: white",
             ]
