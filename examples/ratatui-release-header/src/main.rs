@@ -11,12 +11,12 @@ fn main() -> color_eyre::Result<()> {
         background_color: "#141432",
         width_px: 1120,
         height_px: 520,
-        font_size_px: 14,
+        font_size_px: 25,
     };
 
     let document = build_svg_from_widget(Header, opts);
 
-    const OUT_FILE: &str = "out.svg";
+    const OUT_FILE: &str = "release-header.svg";
 
     svg::save(OUT_FILE, &document)?;
 
