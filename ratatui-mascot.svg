@@ -1,61 +1,58 @@
 <svg dominant-baseline="central" height="400" style="font-family:DejaVu Sans Mono;font-size: 25px;fill: white" viewBox="0 0 495 400" width="495" xmlns="http://www.w3.org/2000/svg">
 <rect fill="black" height="400" width="495"/>
-<text style="fill:237;" x="0" y="350">
+<text style="fill:237;" x="0" y="375">
 █
 </text>
-<text style="fill:237;" x="15" y="325">
+<text style="fill:237;" x="15" y="350">
 ▄
 </text>
-<text style="fill:237;" x="15" y="375">
+<text style="fill:237;" x="15" y="400">
 ▀
 </text>
-<text style="fill:237;" x="30" y="325">
+<text style="fill:237;" x="30" y="350">
 ▀
 </text>
-<text style="fill:237;" x="30" y="375">
+<text style="fill:237;" x="30" y="400">
 ▄
 </text>
-<text style="fill:237;" x="45" y="300">
+<text style="fill:237;" x="45" y="325">
 ▄
 </text>
-<text style="fill:237;" x="60" y="300">
+<text style="fill:237;" x="60" y="325">
 ▀
 </text>
-<text style="fill:237;" x="75" y="275">
+<text style="fill:237;" x="75" y="300">
 ▄
 </text>
-<text style="fill:237;" x="90" y="275">
+<text style="fill:237;" x="90" y="300">
 ▀
 </text>
-<text style="fill:237;" x="105" y="250">
+<text style="fill:237;" x="105" y="275">
 ▄
-</text>
-<text style="fill:231;" x="120" y="75">
-█
 </text>
 <text style="fill:231;" x="120" y="100">
+█
+</text>
+<text style="fill:231;" x="120" y="125">
 ▀
 </text>
-<text style="fill:237;" x="120" y="250">
+<text style="fill:237;" x="120" y="275">
 ▀
-</text>
-<text style="fill:231;" x="135" y="50">
-▄
 </text>
 <text style="fill:231;" x="135" y="75">
-█
+▄
 </text>
 <text style="fill:231;" x="135" y="100">
 █
 </text>
-<text style="fill:237;" x="135" y="225">
+<text style="fill:231;" x="135" y="125">
+█
+</text>
+<text style="fill:237;" x="135" y="250">
 ▄
 </text>
-<text style="fill:248;" x="135" y="275">
+<text style="fill:248;" x="135" y="300">
 ▀
-</text>
-<text style="fill:231;" x="150" y="50">
-█
 </text>
 <text style="fill:231;" x="150" y="75">
 █
@@ -63,20 +60,20 @@
 <text style="fill:231;" x="150" y="100">
 █
 </text>
-<text style="fill:237;" x="150" y="225">
-▀
+<text style="fill:231;" x="150" y="125">
+█
 </text>
-<text style="fill:248;" x="150" y="250">
-▄
+<text style="fill:237;" x="150" y="250">
+▀
 </text>
 <text style="fill:248;" x="150" y="275">
-▀
-</text>
-<text style="fill:231;" x="165" y="25">
 ▄
 </text>
+<text style="fill:248;" x="150" y="300">
+▀
+</text>
 <text style="fill:231;" x="165" y="50">
-█
+▄
 </text>
 <text style="fill:231;" x="165" y="75">
 █
@@ -84,20 +81,20 @@
 <text style="fill:231;" x="165" y="100">
 █
 </text>
-<text style="fill:252;" x="165" y="175">
+<text style="fill:231;" x="165" y="125">
 █
 </text>
 <text style="fill:252;" x="165" y="200">
-▀
-</text>
-<text style="fill:237;" x="165" y="225">
-▀
-</text>
-<text style="fill:248;" x="165" y="300">
-▄
-</text>
-<text style="fill:231;" x="180" y="25">
 █
+</text>
+<text style="fill:252;" x="165" y="225">
+▀
+</text>
+<text style="fill:237;" x="165" y="250">
+▀
+</text>
+<text style="fill:248;" x="165" y="325">
+▄
 </text>
 <text style="fill:231;" x="180" y="50">
 █
@@ -108,29 +105,29 @@
 <text style="fill:231;" x="180" y="100">
 █
 </text>
-<text style="fill:252;" x="180" y="150">
-▄
+<text style="fill:231;" x="180" y="125">
+█
 </text>
 <text style="fill:252;" x="180" y="175">
-█
+▄
 </text>
 <text style="fill:252;" x="180" y="200">
 █
 </text>
-<text style="fill:237;" x="180" y="225">
-▄
+<text style="fill:252;" x="180" y="225">
+█
 </text>
-<text style="fill:248;" x="180" y="300">
+<text style="fill:237;" x="180" y="250">
 ▄
 </text>
 <text style="fill:248;" x="180" y="325">
-▀
-</text>
-<text style="fill:231;" x="195" y="0">
 ▄
 </text>
+<text style="fill:248;" x="180" y="350">
+▀
+</text>
 <text style="fill:231;" x="195" y="25">
-█
+▄
 </text>
 <text style="fill:231;" x="195" y="50">
 █
@@ -141,26 +138,26 @@
 <text style="fill:231;" x="195" y="100">
 █
 </text>
-<text style="fill:252;" x="195" y="150">
-▄
+<text style="fill:231;" x="195" y="125">
+█
 </text>
 <text style="fill:252;" x="195" y="175">
-█
+▄
 </text>
 <text style="fill:252;" x="195" y="200">
 █
 </text>
-<text style="fill:237;" x="195" y="250">
+<text style="fill:252;" x="195" y="225">
+█
+</text>
+<text style="fill:237;" x="195" y="275">
 ▀
 </text>
-<text style="fill:248;" x="195" y="325">
+<text style="fill:248;" x="195" y="350">
 ▀
-</text>
-<text style="fill:231;" x="210" y="0">
-▄
 </text>
 <text style="fill:231;" x="210" y="25">
-█
+▄
 </text>
 <text style="fill:231;" x="210" y="50">
 █
@@ -172,22 +169,22 @@
 █
 </text>
 <text style="fill:231;" x="210" y="125">
+█
+</text>
+<text style="fill:231;" x="210" y="150">
 ▀
 </text>
-<text style="fill:252;" x="210" y="150">
-▄
-</text>
 <text style="fill:252;" x="210" y="175">
-█
+▄
 </text>
 <text style="fill:252;" x="210" y="200">
 █
 </text>
-<text style="fill:237;" x="210" y="250">
-▄
-</text>
-<text style="fill:231;" x="225" y="0">
+<text style="fill:252;" x="210" y="225">
 █
+</text>
+<text style="fill:237;" x="210" y="275">
+▄
 </text>
 <text style="fill:231;" x="225" y="25">
 █
@@ -204,23 +201,23 @@
 <text style="fill:231;" x="225" y="125">
 █
 </text>
-<text style="fill:252;" x="225" y="150">
-▄
+<text style="fill:231;" x="225" y="150">
+█
 </text>
 <text style="fill:252;" x="225" y="175">
-█
+▄
 </text>
 <text style="fill:252;" x="225" y="200">
-▀
-</text>
-<text style="fill:252;" x="225" y="250">
-▀
-</text>
-<text style="fill:237;" x="225" y="275">
-▀
-</text>
-<text style="fill:231;" x="240" y="0">
 █
+</text>
+<text style="fill:252;" x="225" y="225">
+▀
+</text>
+<text style="fill:252;" x="225" y="275">
+▀
+</text>
+<text style="fill:237;" x="225" y="300">
+▀
 </text>
 <text style="fill:231;" x="240" y="25">
 █
@@ -238,10 +235,10 @@
 █
 </text>
 <text style="fill:231;" x="240" y="150">
-▀
-</text>
-<text style="fill:252;" x="240" y="175">
 █
+</text>
+<text style="fill:231;" x="240" y="175">
+▀
 </text>
 <text style="fill:252;" x="240" y="200">
 █
@@ -252,11 +249,11 @@
 <text style="fill:252;" x="240" y="250">
 █
 </text>
-<text style="fill:237;" x="240" y="275">
-▄
-</text>
-<text style="fill:231;" x="255" y="0">
+<text style="fill:252;" x="240" y="275">
 █
+</text>
+<text style="fill:237;" x="240" y="300">
+▄
 </text>
 <text style="fill:231;" x="255" y="25">
 █
@@ -273,11 +270,11 @@
 <text style="fill:231;" x="255" y="125">
 █
 </text>
-<text style="fill:252;" x="255" y="150">
-▄
+<text style="fill:231;" x="255" y="150">
+█
 </text>
 <text style="fill:252;" x="255" y="175">
-█
+▄
 </text>
 <text style="fill:252;" x="255" y="200">
 █
@@ -289,13 +286,13 @@
 █
 </text>
 <text style="fill:252;" x="255" y="275">
-▀
-</text>
-<text style="fill:237;" x="255" y="300">
-▀
-</text>
-<text style="fill:231;" x="270" y="25">
 █
+</text>
+<text style="fill:252;" x="255" y="300">
+▀
+</text>
+<text style="fill:237;" x="255" y="325">
+▀
 </text>
 <text style="fill:231;" x="270" y="50">
 █
@@ -307,10 +304,10 @@
 █
 </text>
 <text style="fill:231;" x="270" y="125">
-▀
-</text>
-<text style="fill:252;" x="270" y="150">
 █
+</text>
+<text style="fill:231;" x="270" y="150">
+▀
 </text>
 <text style="fill:252;" x="270" y="175">
 █
@@ -327,20 +324,20 @@
 <text style="fill:252;" x="270" y="275">
 █
 </text>
-<text style="fill:237;" x="270" y="300">
-▄
-</text>
-<text style="fill:231;" x="285" y="75">
+<text style="fill:252;" x="270" y="300">
 █
+</text>
+<text style="fill:237;" x="270" y="325">
+▄
 </text>
 <text style="fill:231;" x="285" y="100">
 █
 </text>
-<text style="fill:252;" x="285" y="125">
-▄
+<text style="fill:231;" x="285" y="125">
+█
 </text>
 <text style="fill:252;" x="285" y="150">
-█
+▄
 </text>
 <text style="fill:252;" x="285" y="175">
 █
@@ -358,16 +355,16 @@
 █
 </text>
 <text style="fill:252;" x="285" y="300">
-▀
-</text>
-<text style="fill:237;" x="285" y="325">
-▀
-</text>
-<text style="fill:231;" x="300" y="100">
-▀
-</text>
-<text style="fill:252;" x="300" y="125">
 █
+</text>
+<text style="fill:252;" x="285" y="325">
+▀
+</text>
+<text style="fill:237;" x="285" y="350">
+▀
+</text>
+<text style="fill:231;" x="300" y="125">
+▀
 </text>
 <text style="fill:252;" x="300" y="150">
 █
@@ -390,14 +387,14 @@
 <text style="fill:252;" x="300" y="300">
 █
 </text>
-<text style="fill:237;" x="300" y="325">
+<text style="fill:252;" x="300" y="325">
+█
+</text>
+<text style="fill:237;" x="300" y="350">
 ▄
 </text>
-<text style="fill:252;" x="315" y="125">
-▀
-</text>
 <text style="fill:252;" x="315" y="150">
-█
+▀
 </text>
 <text style="fill:252;" x="315" y="175">
 █
@@ -418,16 +415,16 @@
 █
 </text>
 <text style="fill:252;" x="315" y="325">
+█
+</text>
+<text style="fill:252;" x="315" y="350">
 ▀
 </text>
-<text style="fill:237;" x="315" y="350">
-▀
-</text>
-<text style="fill:252;" x="330" y="125">
+<text style="fill:237;" x="315" y="375">
 ▀
 </text>
 <text style="fill:252;" x="330" y="150">
-█
+▀
 </text>
 <text style="fill:252;" x="330" y="175">
 █
@@ -450,11 +447,11 @@
 <text style="fill:252;" x="330" y="325">
 █
 </text>
-<text style="fill:237;" x="330" y="350">
-▄
-</text>
-<text style="fill:252;" x="345" y="125">
+<text style="fill:252;" x="330" y="350">
 █
+</text>
+<text style="fill:237;" x="330" y="375">
+▄
 </text>
 <text style="fill:252;" x="345" y="150">
 █
@@ -481,16 +478,16 @@
 █
 </text>
 <text style="fill:252;" x="345" y="350">
+█
+</text>
+<text style="fill:252;" x="345" y="375">
 ▀
 </text>
-<text style="fill:237;" x="345" y="375">
+<text style="fill:237;" x="345" y="400">
 ▀
-</text>
-<text style="fill:252;" x="360" y="100">
-▄
 </text>
 <text style="fill:252;" x="360" y="125">
-█
+▄
 </text>
 <text style="fill:252;" x="360" y="150">
 █
@@ -514,16 +511,16 @@
 █
 </text>
 <text style="fill:252;" x="360" y="325">
+█
+</text>
+<text style="fill:252;" x="360" y="350">
 ▀
 </text>
-<text style="fill:237;" x="360" y="375">
-▄
-</text>
-<text style="fill:252;" x="375" y="100">
+<text style="fill:237;" x="360" y="400">
 ▄
 </text>
 <text style="fill:252;" x="375" y="125">
-█
+▄
 </text>
 <text style="fill:252;" x="375" y="150">
 █
@@ -534,14 +531,14 @@
 <text style="fill:252;" x="375" y="200">
 █
 </text>
-<text style="fill:252;" x="375" y="300">
+<text style="fill:252;" x="375" y="225">
 █
 </text>
-<text style="fill:252;" x="375" y="375">
+<text style="fill:252;" x="375" y="325">
+█
+</text>
+<text style="fill:252;" x="375" y="400">
 ▀
-</text>
-<text style="fill:252;" x="390" y="100">
-█
 </text>
 <text style="fill:252;" x="390" y="125">
 █
@@ -552,16 +549,16 @@
 <text style="fill:252;" x="390" y="175">
 █
 </text>
-<text style="fill:252;" x="390" y="300">
+<text style="fill:252;" x="390" y="200">
 █
 </text>
-<text style="fill:252;" x="390" y="350">
-▄
+<text style="fill:252;" x="390" y="325">
+█
 </text>
 <text style="fill:252;" x="390" y="375">
-█
+▄
 </text>
-<text style="fill:252;" x="405" y="100">
+<text style="fill:252;" x="390" y="400">
 █
 </text>
 <text style="fill:252;" x="405" y="125">
@@ -570,7 +567,7 @@
 <text style="fill:252;" x="405" y="150">
 █
 </text>
-<text style="fill:252;" x="405" y="300">
+<text style="fill:252;" x="405" y="175">
 █
 </text>
 <text style="fill:252;" x="405" y="325">
@@ -579,7 +576,7 @@
 <text style="fill:252;" x="405" y="350">
 █
 </text>
-<text style="fill:252;" x="420" y="100">
+<text style="fill:252;" x="405" y="375">
 █
 </text>
 <text style="fill:252;" x="420" y="125">
@@ -588,7 +585,7 @@
 <text style="fill:252;" x="420" y="150">
 █
 </text>
-<text style="fill:252;" x="420" y="300">
+<text style="fill:252;" x="420" y="175">
 █
 </text>
 <text style="fill:252;" x="420" y="325">
@@ -597,7 +594,7 @@
 <text style="fill:252;" x="420" y="350">
 █
 </text>
-<text style="fill:252;" x="435" y="100">
+<text style="fill:252;" x="420" y="375">
 █
 </text>
 <text style="fill:252;" x="435" y="125">
@@ -606,16 +603,19 @@
 <text style="fill:252;" x="435" y="150">
 █
 </text>
-<text style="fill:252;" x="435" y="325">
+<text style="fill:252;" x="435" y="175">
 █
 </text>
-<text style="fill:252;" x="450" y="100">
+<text style="fill:252;" x="435" y="350">
 █
 </text>
 <text style="fill:252;" x="450" y="125">
 █
 </text>
-<text style="fill:252;" x="465" y="100">
+<text style="fill:252;" x="450" y="150">
+█
+</text>
+<text style="fill:252;" x="465" y="125">
 █
 </text>
 </svg>

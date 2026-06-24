@@ -1,5 +1,5 @@
 use ratasvg::{build_svg_from_widget, svg};
-use ratatui::widgets::RatatuiMascot;
+use ratatui::widgets::{RatatuiLogo, RatatuiLogoSize, RatatuiMascot};
 
 use crate::header::Header;
 
@@ -29,6 +29,19 @@ fn main() -> color_eyre::Result<()> {
                 width_px: 500,
                 height_px: 400,
                 font_size_px: 25,
+            },
+        ),
+    )?;
+
+    svg::save(
+        "ratatui-logo.svg",
+        &build_svg_from_widget(
+            RatatuiLogo::small(),
+            ratasvg::Options {
+                background_color: "black",
+                width_px: 840,
+                height_px: 150,
+                font_size_px: 50,
             },
         ),
     )?;
