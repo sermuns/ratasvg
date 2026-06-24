@@ -68,7 +68,7 @@ pub fn build_svg_from_widget(
                 document.append(
                     Text::new(cell.symbol())
                         .set("x", col * cell_width_px)
-                        .set("y", row * cell_height_px), // +1 for baseline
+                        .set("y", row * cell_height_px),
                 );
             }
         }
