@@ -1,3 +1,4 @@
+use mousefood_extras::MouseFoodLogo;
 use ratasvg::{build_svg_from_widget, svg};
 use ratatui::widgets::{RatatuiLogo, RatatuiLogoSize, RatatuiMascot};
 
@@ -41,6 +42,19 @@ fn main() -> color_eyre::Result<()> {
                 background_color: "black",
                 width_px: 840,
                 height_px: 150,
+                font_size_px: 50,
+            },
+        ),
+    )?;
+
+    svg::save(
+        "mousefood-logo.svg",
+        &build_svg_from_widget(
+            MouseFoodLogo,
+            ratasvg::Options {
+                background_color: "black",
+                width_px: 1200,
+                height_px: 400,
                 font_size_px: 50,
             },
         ),
