@@ -1,4 +1,7 @@
-![release-header](./release-header.svg)
-![ratatui mascot](./ratatui-mascot.svg)
+> [!NOTE]
+> WORK IN PROGRESS!!!!! NOTHING WORKS! well some of it works, but DONT USE THIS!
 
-WIP: render Ratatui widgets to SVG
+![ratatui mascot](./ratatui-mascot.svg)
+![ratatui-logo](./ratatui-logo.svg)
+![release-header](./release-header.svg)
+![mousefood-logo](./mousefood-logo.svg)
