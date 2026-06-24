@@ -1,5 +1,5 @@
 [package]
-name = "simple"
+name = "ratatui-release-header"
 edition.workspace = true
 publish = false
 

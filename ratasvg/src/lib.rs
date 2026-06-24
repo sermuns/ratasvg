@@ -1,4 +1,4 @@
-use ratatui_core::{buffer::Buffer, layout::Rect, widgets::Widget};
+use ratatui_core::{buffer::Buffer, layout::Rect, style::Color, widgets::Widget};
 use svg::{
     Document, Node,
     node::element::{Rectangle, Text},
@@ -6,21 +6,32 @@ use svg::{
 
 pub use svg;
 
-pub struct Options {
-    pub area: Rect,
-    pub cell_width_px: u16,
-    pub cell_height_px: u16,
+pub struct Options<'a> {
+    pub background_color: &'a str,
+    pub width_px: u16,
+    pub height_px: u16,
     pub font_size_px: u16,
 }
 
-pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document {
-    let Options {
-        area,
-        cell_width_px,
-        cell_height_px,
+pub fn build_svg_from_widget(
+    widget: impl Widget,
+    Options {
+        background_color,
+        width_px,
+        height_px,
         font_size_px,
-    } = options;
+    }: Options,
+) -> Document {
+    // FIXME: do it properly..
+    const FONT_ASPECT_RATIO: f32 = 3. / 5.;
+    let cell_width_px = (font_size_px as f32 * FONT_ASPECT_RATIO) as u16;
+    let cell_height_px = font_size_px;
 
+    let area = Rect {
+        width: width_px / cell_width_px,
+        height: height_px / cell_height_px,
+        ..Default::default()
+    };
     let mut buf = Buffer::empty(area);
 
     widget.render(area, &mut buf);
@@ -45,7 +56,7 @@ pub fn build_svg_from_widget(widget: impl Widget, options: Options) -> Document 
         .set("dominant-baseline", "central");
 
     let background_rect = Rectangle::new()
-        .set("fill", "#333")
+        .set("fill", background_color)
         .set("width", document_width_px)
         .set("height", document_height_px);
     document.append(background_rect);
