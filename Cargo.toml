@@ -1,9 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["ratasvg", "examples/*"]
+members = ["ratasvg", "example"]
 
 [workspace.package]
 edition = "2024"
-
-[workspace.dependencies]
-ratasvg.path = "ratasvg"

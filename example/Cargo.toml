@@ -1,9 +1,9 @@
 [package]
-name = "ratatui-release-header"
+name = "example"
 edition.workspace = true
 publish = false
 
 [dependencies]
 color-eyre = "0.6"
+ratasvg.path = "../ratasvg"
 ratatui = "0.30"
-ratasvg.workspace = true
