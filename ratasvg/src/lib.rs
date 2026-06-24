@@ -1,4 +1,9 @@
-use ratatui_core::{buffer::Buffer, layout::Rect, widgets::Widget};
+use ratatui_core::{
+    buffer::Buffer,
+    layout::Rect,
+    style::{Modifier, Style},
+    widgets::Widget,
+};
 use svg::{
     Document, Node,
     node::element::{Rectangle, Text},
@@ -35,6 +40,7 @@ pub fn build_svg_from_widget(
     let mut buf = Buffer::empty(area);
 
     widget.render(area, &mut buf);
+    dbg!(&buf);
 
     let (document_width_px, document_height_px) =
         (area.width * cell_width_px, area.height * cell_height_px);
@@ -63,15 +69,40 @@ pub fn build_svg_from_widget(
     for col in 0..area.width {
         for row in 0..area.height {
             let cell = &buf[(col, row)];
-            if cell.symbol() != " " {
-                document.append(
-                    Text::new(cell.symbol())
+            match cell.symbol() {
+                " " => continue,
+                symbol => {
+                    let text = Text::new(symbol)
                         .set("x", col * cell_width_px)
-                        .set("y", row * cell_height_px),
-                );
+                        .set("y", row * cell_height_px)
+                        .set("style", ratatui_style_to_css_style_string(cell.style()));
+
+                    document.append(text);
+                }
             }
         }
     }
 
     document
+}
+
+fn ratatui_style_to_css_style_string(style: Style) -> String {
+    let mut css_style = String::new();
+
+    if let Some(fg) = style.fg {
+        css_style.push_str(&format!("fill:{};", fg));
+    }
+
+    // if let Some(bg) = style.bg {
+    //     css_style.push_str(&format!("background-color:{};", bg));
+    // }
+
+    if style.add_modifier.contains(Modifier::ITALIC) {
+        css_style.push_str("font-style:italic;");
+    }
+    if style.add_modifier.contains(Modifier::DIM) {
+        css_style.push_str("opacity:0.5;");
+    }
+
+    css_style
 }
