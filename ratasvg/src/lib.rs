@@ -40,7 +40,6 @@ pub fn build_svg_from_widget(
     let mut buf = Buffer::empty(area);
 
     widget.render(area, &mut buf);
-    dbg!(&buf);
 
     let (document_width_px, document_height_px) =
         (area.width * cell_width_px, area.height * cell_height_px);
